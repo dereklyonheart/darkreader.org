@@ -16,11 +16,11 @@ This document will guide you through the features of Dark Reader.
 
 <h2 id="top-section">Top section</h2>
 
-<img src="https://user-images.githubusercontent.com/49388020/166393538-919777f5-be25-49d8-9ef2-f7df8a1c8333.png"
+<img src="https://user-images.githubusercontent.com/49388020/166393538-919777f5-be25-49d8-9ef2-f7df8a1c8333.png" />
 
 
 - **On/Off** switch enables or disables the extension.
-- Click on the links under the buttons to **modify the hotkeys** for the extension.
+- **Auto** switches setting depending on system darkmode. 
 - **Toggle site** button adds the current site into the ignore list (or removes it from there).
 - Note: If the toggle button is greyed-out, it means that browser restricts injecting scripts into current page.
 
