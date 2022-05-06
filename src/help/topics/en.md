@@ -21,48 +21,36 @@ This document will guide you through the features of Dark Reader.
 
 - **On/Off** switch enables or disables the extension.
 - **Auto** switches setting depending on system darkmode. 
-- **Toggle site** button adds the current site into the ignore list (or removes it from there).
+- **Toggle site** button (where url is listed) adds the current site into the ignore list (or removes it from there).
 - Note: If the toggle button is greyed-out, it means that browser restricts injecting scripts into current page.
 
 
-<h2 id="filter-settings">Filter settings</h2>
+<h2 id="filter-settings">Theme settings</h2>
 
-<img src="/images/help/darkreader-filter-settings.png" alt="Filter settings" style="width: 15rem;" loading="lazy" />
+<img src="https://user-images.githubusercontent.com/49388020/167062722-fcd7d9b1-84ce-44db-8c57-9aa777ca2271.png" />
 
-Adjust the mode, brightness, contrast, sepia, and saturation ("grayscale") settings. This can be used to better suit your screen parameters and the lighting in the room.
+Adjust the scheme, mode, brightness, contrast, sepia, and saturation ("grayscale") settings. This can be used to better suit your screen parameters and the lighting in the room.
+
+Click "See all options" for the full list of settings: 
+
+<img src="https://user-images.githubusercontent.com/49388020/167062964-aef45377-a3dd-416f-a563-9fc94bb2c0cc.png" />
+
 
 
 <h2 id="custom-site-settings">Custom site settings</h2>
 
-<img src="/images/help/darkreader-custom-site-settings.png" alt="Custom settings" style="width: 15rem;" loading="lazy" />
+<img src="https://user-images.githubusercontent.com/49388020/167063520-a8b43982-7165-4ff0-9e47-d0472ce1ce48.png" />
 
-The **Only for** button determines whether the above filter settings should only be applied to the current website.
-
-To use, first click the button (which will become highlighted), then adjust the settings as desired for the current website. Click the button again to cancel.
-
-
-<h2 id="site-list">Site list</h2>
-
-<img src="/images/help/darkreader-site-list.png" alt="Site list" style="width: 15rem;" loading="lazy" />
-
-- Use **Invert listed only** if you wish Dark Reader to work only on listed websites.
-- **Not invert listed** will prevent the extension from working on listed websites.
-- Possible patterns for values are `google.com, mail.google.com, google.*, google.com/maps` etc.
-- Clicking the **Toggle** button (in [Top section](#top-section)) adds the current site into this list.
-
-<h2 id="more-tab">More tab</h2>
-
-<img src="/images/help/darkreader-more-tab.png" alt="More tab" style="width: 15rem;" loading="lazy" />
-
-- **Pick a font** from list (or enter font name on Firefox), click the **checkbox**.
-- Adjust the **text stroke**.
-- Select a **theme generation mode**.
-
+The dropdown options when you click **Theme for all websites** determine whether the above theme settings should be applied to all websites, the current website, or if you like a new theme profile you can use for a subset of websites. 
 
 <h2 id="theme-generation-modes">Theme generation modes</h2>
 
+<img src="https://user-images.githubusercontent.com/49388020/167065896-cec00bf3-a754-494e-8d91-1081b08626b1.png" />
+
+</br>
+
 <figure>
-    <img src="/images/help/darkreader-theme-modes.png" alt="Filter+ vs. Static vs. Dynamic mode" loading="lazy" />
+    <img src="https://user-images.githubusercontent.com/49388020/167066233-31c0ff39-6e03-4942-ba22-1d76f32238bb.png">
     <figcaption>Filter+ vs. Static vs. Dynamic mode</figcaption>
 </figure>
 
@@ -84,16 +72,39 @@ but produces *the best* visual results.
 The work on this mode is in progress,
 but it already works well for many modern websites.
 
+<h2 id="settings-list">Settings list</h2>
+
+<img src="https://user-images.githubusercontent.com/49388020/167064092-eb612c6d-efee-4209-a4ad-d12e7fc09a9f.png" />
+</br>
+<img src="https://user-images.githubusercontent.com/49388020/167064362-cb318645-8811-4dd0-81ba-62fd278da4b0.png" />
+
+Clicking on settings will take you to the settings menu. Here you can toggle Dark Reader, access the site list, access dev tools and more. 
+
+
+
+<h2 id="site-list">Site list</h2>
+
+<img src="https://user-images.githubusercontent.com/49388020/167065046-8946607b-4d6f-43d4-931d-e0576023e374.png" />
+</br>
+<img src="https://user-images.githubusercontent.com/49388020/167065322-d6160ff6-6230-4a78-9121-34af907ec24e.png" />
+
+
+- Add sites to the Site list to exclude them from Dark Reader site manipulations. 
+- Possible patterns for values are `google.com, mail.google.com, google.*, google.com/maps` etc.
+- Clicking the **Toggle site** button (in [Top section](#top-section)) adds the current site into this list.
+- You can also toggle whether to use Dark Reader on PDFs and restricted sites.
+
+
 
 <h2 id="bottom-section">Bottom section</h2>
 
-<img src="/images/help/darkreader-footer.png" alt="Bottom section" style="width: 15rem;" loading="lazy" />
+<img src="https://user-images.githubusercontent.com/49388020/167066568-7efd098b-f8e5-4af3-9b8b-1dfc7c46372b.png" />
 
-- Read our **privacy policy**, follow us on **Twitter**, view source and contribute on **Github**, read the **Help** documentation on this page.
+- Access **Settings** and read the **Help** documentation on this page.
 - **Donate** – if you like the extension, please consider supporting the active development of Dark Reader.
 Crowdfunding is powered by Open Collective, which currently uses Stripe for handling payments.
-- **News** – notifies about release notes and important events.
-- **Developer tools** – opens a config editor for the current theme mode.
+- **Blog** – Click the preview link on the bottom to read release notes and important events.
+
 
 
 <h2 id="using-dev-tools">Using the Developer tools</h2>
